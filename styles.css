@@ -171,11 +171,12 @@
   font-size: 12px;
   box-shadow: none;
   color: white;
+  transition: ease-in-out 0.3s;
 }
 .card:hover {
   margin-top: -7px;
   margin-bottom: 7px;
-  transition: 0.2s ease;
+  transition: ease-in-out 0.3s;
 }
 .card p {
   font-size: 14px;
