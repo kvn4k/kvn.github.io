@@ -173,8 +173,8 @@
   color: white;
 }
 .card:hover {
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-top: -7px;
+  margin-bottom: 7px;
   transition: 0.2s ease-in-out;
 }
 .card p {
