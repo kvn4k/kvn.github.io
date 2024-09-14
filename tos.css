@@ -1,0 +1,72 @@
+* {
+    background-color: #141414;
+    height: auto;
+}
+.tos-container {
+    width: 1000px;
+    height: 2100px;
+    border-radius: 20px;
+    background-color: rgba(21, 21, 21, 1.0);
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.tos-label p {
+    background-color: rgba(21, 21, 21, 1.0);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.tos-information{
+    background-color: rgba(21, 21, 21, 1.0);
+}
+.tos-information p {
+    background-color: rgba(21, 21, 21, 1.0);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.tos-information h1 {
+    background-color: rgba(21, 21, 21, 1.0);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 300;
+    margin-left: 50px;
+}
+.img {
+    background-color: rgba(21, 21, 21, 1.0);
+    text-align: left;
+    font-size: 15px;
+}
+.tos-information li {
+    color: white;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    margin-left: 50px;
+    background-color: rgba(21, 21, 21, 1.0);
+}
+.tos-information ul {
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 50px;
+    background-color: rgba(21, 21, 21, 1.0);
+}
+@media only screen and (max-width: 600px) {
+ .tos-container{
+    width: 200px;
+ }   
+}
+@media only screen and (max-width: 1200px) {
+    .tos-container{
+       width: 400px;
+    }   
+   }
