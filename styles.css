@@ -45,3 +45,49 @@
     font-family: "Inter", sans-serif;
     text-decoration: none;
 }
+
+
+.coming-soon{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+}
+.first-container  {
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(21, 21, 21, 1.0);
+    text-align: center;
+    align-content: center;
+    margin-top: 300px;
+    
+}
+.first-container h1 {
+    color: white;
+    font-weight: 800;
+    text-shadow: 0 0 10px rgba(255,255,255);
+    font-size: 30px;
+    background-color: rgba(21, 21, 21, 1.0);
+    font-family: "Inter", sans-serif;
+}
+.first-container h2 {
+    color: rgb(27,27,27);
+    font-weight: 400;
+    text-shadow: 0 0 13px rgba(25,25,25);
+    font-size: 12px;
+    background-color: rgba(21, 21, 21, 1.0);
+    font-family: "Inter", sans-serif;
+}
+.first-container a {
+    color: white;
+    background-color: rgba(21, 21, 21, 1.0);
+    font-weight: 800;
+    text-shadow: 0 0 10px rgba(255,255,255);
+    font-size: 30px;
+    background-color: rgba(21, 21, 21, 1.0);
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
