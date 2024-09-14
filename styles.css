@@ -17,7 +17,6 @@
     text-align: center;
     align-content: center;
     margin-top: 300px;
-    
 }
 .first-container h1 {
     color: white;
@@ -45,8 +44,6 @@
     font-family: "Inter", sans-serif;
     text-decoration: none;
 }
-
-
 .coming-soon{
     display: flex;
     text-decoration: none;
@@ -61,8 +58,7 @@
     background-color: rgba(21, 21, 21, 1.0);
     text-align: center;
     align-content: center;
-    margin-top: 300px;
-    
+    margin-top: 300px; 
 }
 .first-container h1 {
     color: white;
