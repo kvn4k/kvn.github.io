@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* heyyy */
+
+.wrapper {
+    position: relative;
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    background-image: url('./Backgorund.gif');
+    filter: blur(6px);
+    z-index: 0;
+    transform: scale(1.1);
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.801);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.header {
+    font-size: 5vw;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    margin-top: -1vh;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gradient-texteffect {
+    background: linear-gradient(to right, #000035 20%, #000042 40%, #000053 60%, #000042 80%, #000035 100%);
+    background-size: 200% 200%;
+    color: #000035;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s linear infinite;
+    transition: all 0.25s ease;
+}
+
+.tag {
+    font-size: 0.8vw;
+    color: rgb(122, 122, 122);
+    font-weight: 400;
+    text-align: center;
+}
+
+.desc {
+    font-size: 0.8vw;
+    color: rgb(211, 211, 211);
+    font-weight: 600;
+    margin-top: 10px;
+    max-width: 30vw;
+    text-align: center;
+}
+
+.container {
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.description p {
+    margin: 0;
+    color: #b0b0ba;
+}
+
+.description h4 {
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+input {
+    display: none;
+}
+
+input:checked+label {
+    width: 30vw;
+}
+
+input:checked+label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    transition-delay: 0.3s;
+}
+
+.fade-in {
+    animation: fadeIn 0.15s linear;
+}
+
+.fade-out {
+    animation: fadeOut 0.15s linear;
+}
+
+.countdown-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+#countdown,
+.xx {
+    background: #111111;
+    padding: 10px 2vw;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.5vw;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.timeholder {
+    font-weight: bold;
+    color: white;
+    font-size: 1.7vw;
+    letter-spacing: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+.timeholder span {
+    display: inline-block;
+    position: relative;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+
+@keyframes shine {
+    100% {
+        background-position: 200% center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .desc {
+        max-width: 70vw;
+        font-size: 3vw;
+        margin-top: 5px;
+    }
+
+    .header {
+        font-size: 16vw;
+    }
+
+    .tag {
+        font-size: 3vw;
+    }
+
+    #countdown,
+    .xx {
+        background: #111111;
+        padding: 10px 2vw;
+        border-radius: 5px;
+        color: white;
+        font-size: 2vw;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    .xx span {
+        font-weight: bold;
+        color: white;
+        font-size: 3.7vw;
+        letter-spacing: 0px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        display: none;
+    }
+}
